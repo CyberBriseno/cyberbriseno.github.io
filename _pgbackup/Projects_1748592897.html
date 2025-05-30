@@ -4,7 +4,7 @@
         <meta charset="UTF-8"/> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
-        <title>Testimonials | RedLight</title>         
+        <title>One Column | RedLight</title>         
         <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png"> 
         <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png"> 
         <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png"> 
@@ -22,14 +22,18 @@
         <meta name="msapplication-TileColor" content="#ffffff"> 
         <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png"> 
         <meta name="theme-color" content="#ffffff"> 
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css"/> 
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css"/> 
+        <link rel="stylesheet" href="./assets/js/bootstrap.min.js"/> 
         <link rel="stylesheet" href="./assets/css/style.css"/> 
         <link rel="stylesheet" href="./assets/css/mobile.css"/> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer"/> 
+        <link rel="stylesheet" href="./assets/css/super-class.css"/> 
+        <link rel="stylesheet" href="./assets/css/custom-style.css"/> 
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css"/> 
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css"/> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"/> 
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/> 
     </head>     
     <body> 
         <!-- HEADER-SECTION -->         
@@ -48,19 +52,19 @@
                                     </li>                                     
                                     <li class="nav-item"> <a class="nav-link text-decoration-none navbar-text-color" href="services.html">Services</a> 
                                     </li>                                     
-                                    <li class="nav-item dropdown redlight-dropdown active"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a> 
+                                    <li class="nav-item dropdown redlight-dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a> 
                                         <div class="dropdown-menu dropdown-content-redlight"> 
                                             <ul class="list-unstyled"> 
                                                 <li class="nav-item"> <a class="dropdown-item nav-link" href="faq.html">FAQs</a>
                                                 </li>                                                 
                                                 <li class="nav-item"> <a class="dropdown-item nav-link" href="teams.html">Team</a>
                                                 </li>                                                 
-                                                <li class="nav-item"> <a class="dropdown-item nav-link active" href="testimonial.html">Testimonials</a>
+                                                <li class="nav-item"> <a class="dropdown-item nav-link" href="testimonial.html">Testimonials</a>
                                                 </li>                                                 
                                             </ul>                                             
                                         </div>                                         
                                     </li>                                     
-                                    <li class="nav-item dropdown redlight-dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blogs</a> 
+                                    <li class="nav-item dropdown redlight-dropdown active"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blogs</a> 
                                         <div class="dropdown-menu dropdown-content-redlight blogs-section-drop-down"> 
                                             <ul class="list-unstyled"> 
                                                 <li class="nav-item"> <a class="dropdown-item fierce-menu nav-link" href="single-post.html">Single Post</a>
@@ -69,7 +73,7 @@
                                                 </li>                                                 
                                                 <li class="nav-item"> <a class="dropdown-item fierce-menu nav-link" href="load-more.html">Load More</a>
                                                 </li>                                                 
-                                                <li class="nav-item"> <a class="dropdown-item fierce-menu nav-link" href="one-column.html">One Column</a>
+                                                <li class="nav-item"> <a class="dropdown-item fierce-menu nav-link active" href="one-column.html">One Column</a>
                                                 </li>                                                 
                                                 <li class="nav-item"> <a class="dropdown-item fierce-menu nav-link" href="two-column.html">Two Column</a>
                                                 </li>                                                 
@@ -109,9 +113,10 @@
                         <div class="row"> 
                             <div class="col-lg-12 col-md-12 col-sm-12 mb-md-0 mb-4  text-center"> 
                                 <div class="about-banner-text" data-aos="fade-up"> 
-                                    <h1 class="text-white about-h1" data-aos="zoom-out-left">Testimonials</h1> 
-                                    <p class="text-white banner-paragraph" data-aos="zoom-out-right">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusm tempor incididunt ut labore et dolore magna aliqua.</p> 
-                                    <div class="about-btn"> <a href="testimonial.html" class="text-decoration-none">Home <span class="about-text-color"> / Testimonials</span></a> 
+                                    <h1 class="text-white about-h1" data-aos="zoom-out-left">Blog - One Column</h1> 
+                                    <p class="text-white banner-paragraph" data-aos="zoom-out-right">Excepteur sint occaecat cupidatat non proident
+                            sunt in culra aui officia aeserunt.</p> 
+                                    <div class="about-btn"> <a href="one-column.html" class="text-decoration-none">Blog <span class="about-text-color"> / One Column</span></a> 
                                     </div>                                     
                                 </div>                                 
                             </div>                             
@@ -120,214 +125,139 @@
                 </div>                 
             </div>             
         </div>         
-        <!-- Clients_section -->         
-        <div class="clients-section services-clients-section clients-testimonial-page overflow-hidden"> 
-            <div class="about-right-icon position-relative"> 
-                <figure class="whyus-icon">
-                    <img src="./assets/images/about-us-section-right-icon.png" alt="" class="img-fluid"> 
-                </figure>                 
-            </div>             
-            <div class="container"> 
-                <div class="row"> 
-                    <div class="col-lg-6 col-md-6 col-sm-12"> 
-                        <div class="clients-outer-box  position-relative" data-aos="zoom-out-left"> 
-                            <figure class="clients-outer-box-figure">
-                                <img src="assets/images/client-section-img1.png" alt="">
-                            </figure>                             
-                            <figure class="position-absolute icon-figure-quotes">
-                                <img src="./assets/images/quotes-icon.png" alt="">
-                            </figure>                             
-                            <div class="clients-right-content"> <span class="spencer-span">Spencer Simpson</span> <span class="ceo-p">CEO - Company</span> 
-                            </div>                             
-                            <p class="clients-sectionp2">Lorem ipsum dolor sit amet consectetuer adipiscing elitenea ncom modo ligula eget dolor aenean massa cum sociis nato que penatibus etmagnis dis parturient montes </p> 
-                            <ul class="list-unstyled"> 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                            </ul>                             
-                        </div>                         
-                    </div>                     
-                    <div class="col-lg-6 col-md-6 col-sm-12"> 
-                        <div class="clients-outer-box  position-relative" data-aos="zoom-out-left"> 
-                            <figure class="clients-outer-box-figure">
-                                <img src="assets/images/client-section-img2.png" alt="">
-                            </figure>                             
-                            <figure class="position-absolute icon-figure-quotes">
-                                <img src="./assets/images/quotes-icon.png" alt="">
-                            </figure>                             
-                            <div class="clients-right-content"> <span class="spencer-span">Spencer Simpson</span> <span class="ceo-p">CEO - Company</span> 
-                            </div>                             
-                            <p class="clients-sectionp2">Lorem ipsum dolor sit amet consectetuer adipiscing elitenea ncom modo ligula eget dolor aenean massa cum sociis nato que penatibus etmagnis dis parturient montes </p> 
-                            <ul class="list-unstyled"> 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                            </ul>                             
-                        </div>                         
-                    </div>                     
-                </div>                 
-                <!-- row2 -->                 
-                <div class="clients-row2 position-relative" data-aos="fade-up"> 
-                    <div class="row"> 
-                        <div class="col-lg-6 col-md-6 col-sm-12"> 
-                            <div class="clients-outer-box  position-relative"> 
-                                <figure class="clients-outer-box-figure">
-                                    <img src="assets/images/client-section-img3.png" alt="">
-                                </figure>                                 
-                                <figure class="position-absolute icon-figure-quotes">
-                                    <img src="./assets/images/quotes-icon.png" alt="">
-                                </figure>                                 
-                                <div class="clients-right-content"> <span class="spencer-span">Spencer Simpson</span> <span class="ceo-p">CEO - Company</span> 
+        <div class="wrapper"> 
+            <section class="blog-posts overflow-hidden"> 
+                <div class="container"> 
+                    <div class="row wow fadeInUp" style="visibility: visible; animation-name: fadeInUp"> 
+                        <div id="blog" class="col-xl-12" data-aos="fade-up"> 
+                            <div class="float-left w-100 post-item border mb-4"> 
+                                <div class="post-item-wrap position-relative"> 
+                                    <div class="post-image"> <a href="#">  <img alt="" src="assets/images/post-featured.jpg"/>  </a> <span class="post-meta-category">  <a href="">Lifestyle</a>  </span> 
+                                    </div>                                     
+                                    <div class="post-item-description"> <span class="post-meta-date"> Jan 21, 2017 </span> <span class="post-meta-comments">  <a href=""> 33 Comments </a>  </span> 
+                                        <h2>  <a href="#">Standard post with a single image </a>  </h2> 
+                                        <p> 
+                    Curabitur pulvinar euismod ante, ac sagittis ante posuere
+                    ac. Vivamus luctus commodo dolor porta feugiat. Fusce at
+                    velit id ligula ac sagittis ante posuere ac pharetra
+                    laoreet commodo dolor porta. </p> <a href="single-post.html" class="item-link text-decoration-none">Read More <i class="fa fa-arrow-right"></i>  </a> 
+                                        <!--post-item-description-->                                         
+                                    </div>                                     
+                                    <!--post-item-wrap-->                                     
                                 </div>                                 
-                                <p class="clients-sectionp2">Lorem ipsum dolor sit amet consectetuer adipiscing elitenea ncom modo ligula eget dolor aenean massa cum sociis nato que penatibus etmagnis dis parturient montes </p> 
-                                <ul class="list-unstyled"> 
-                                    <li>
-                                        <i class="fa-solid fa-star"></i>
-                                    </li>                                     
-                                    <li>
-                                        <i class="fa-solid fa-star"></i>
-                                    </li>                                     
-                                    <li>
-                                        <i class="fa-solid fa-star"></i>
-                                    </li>                                     
-                                    <li>
-                                        <i class="fa-solid fa-star"></i>
-                                    </li>                                     
-                                </ul>                                 
+                                <!--post-item-->                                 
                             </div>                             
-                        </div>                         
-                        <div class="col-lg-6 col-md-6 col-sm-12"> 
-                            <div class="clients-outer-box  position-relative"> 
-                                <figure class="clients-outer-box-figure">
-                                    <img src="assets/images/client-section-img4.png" alt="">
-                                </figure>                                 
-                                <figure class="position-absolute icon-figure-quotes">
-                                    <img src="./assets/images/quotes-icon.png" alt="">
-                                </figure>                                 
-                                <div class="clients-right-content"> <span class="spencer-span">Spencer Simpson</span> <span class="ceo-p">CEO - Company</span> 
+                            <div class="float-left w-100 post-item border mb-4"> 
+                                <div class="post-item-wrap position-relative"> 
+                                    <div id="blogslider" class="carousel slide" data-ride="carousel"> 
+                                        <div class="carousel-inner"> 
+                                            <div class="carousel-item active"> 
+                                                <img src="assets/images/post-featured2.jpg" alt=""/> 
+                                            </div>                                             
+                                            <div class="carousel-item"> 
+                                                <img src="assets/images/post-featured2.jpg" alt=""/> 
+                                            </div>                                             
+                                            <div class="carousel-item"> 
+                                                <img src="assets/images/post-featured3.jpg" alt=""/> 
+                                            </div>                                             
+                                        </div>                                         <a class="carousel-control-prev" href="#blogslider" data-slide="prev">  <span class="carousel-control-prev-icon"></span>  </a> <a class="carousel-control-next" href="#blogslider" data-slide="next">  <span class="carousel-control-next-icon"></span>  </a> 
+                                    </div>                                     <span class="post-meta-category"><a href="">Technology</a></span> 
+                                    <div class="post-item-description"> <span class="post-meta-date"> Jan 21, 2017 </span> <span class="post-meta-comments"><a href=""> 33 Comments </a></span> 
+                                        <h2>  <a href="#">Simplicity, a post with slider gallery</a>  </h2> 
+                                        <p> 
+                    Curabitur pulvinar euismod ante, ac sagittis ante posuere
+                    ac. Vivamus luctus commodo dolor porta feugiat. Fusce at
+                    velit id ligula ac sagittis ante posuere ac pharetra
+                    laoreet commodo dolor porta. </p> <a href="single-post.html" class="item-link text-decoration-none">Read More <i class="fa fa-arrow-right"></i></a> 
+                                        <!--post-item-description-->                                         
+                                    </div>                                     
+                                    <!--post-item-wrap-->                                     
                                 </div>                                 
-                                <p class="clients-sectionp2">Lorem ipsum dolor sit amet consectetuer adipiscing elitenea ncom modo ligula eget dolor aenean massa cum sociis nato que penatibus etmagnis dis parturient montes </p> 
-                                <ul class="list-unstyled"> 
-                                    <li>
-                                        <i class="fa-solid fa-star"></i>
-                                    </li>                                     
-                                    <li>
-                                        <i class="fa-solid fa-star"></i>
-                                    </li>                                     
-                                    <li>
-                                        <i class="fa-solid fa-star"></i>
-                                    </li>                                     
-                                    <li>
-                                        <i class="fa-solid fa-star"></i>
-                                    </li>                                     
-                                </ul>                                 
+                                <!--post-item-->                                 
                             </div>                             
+                            <div class="float-left w-100 post-item border mb-4"> 
+                                <div class="post-item-wrap position-relative"> 
+                                    <div class="post-image"> <a href="#">  <img alt="" src="assets/images/post-featured4.jpg"/>  </a> <span class="post-meta-category">  <a href="#">Science</a>  </span> 
+                                    </div>                                     
+                                    <div class="post-item-description"> <span class="post-meta-date"> Jan 21, 2017 </span> <span class="post-meta-comments">  <a href=""> 33 Comments </a>  </span> 
+                                        <h2><a href="#">Standard post with a single image </a></h2> 
+                                        <p> 
+                    Curabitur pulvinar euismod ante, ac sagittis ante posuere
+                    ac. Vivamus luctus commodo dolor porta feugiat. Fusce at
+                    velit id ligula ac sagittis ante posuere ac pharetra
+                    laoreet commodo dolor porta. </p> <a href="single-post.html" class="item-link text-decoration-none">Read More <i class="fa fa-arrow-right"></i></a> 
+                                        <!--post-item-description-->                                         
+                                    </div>                                     
+                                    <!--post-item-wrap-->                                     
+                                </div>                                 
+                                <!--post-item-->                                 
+                            </div>                             
+                            <div class="float-left w-100 post-item border mb-4"> 
+                                <div class="post-item-wrap position-relative"> 
+                                    <div class="post-audio position-relative"> <a href="#">  <img alt="" src="assets/images/post-featured.jpg"/>  </a> <span class="post-meta-category">  <a href="">Audio</a>  </span> 
+                                        <audio class="position-absolute" controls=""> 
+                                            <source src="horse.ogg" type="audio/ogg"/> 
+                                            <source src="assets/audio/horse.mp3" type="audio/mpeg"/> 
+                                        </audio>                                         
+                                    </div>                                     
+                                    <div class="post-item-description"> <span class="post-meta-date"> Jan 21, 2017 </span> <span class="post-meta-comments">  <a href=""> 33 Comments </a>  </span> 
+                                        <h2>  <a href="#">Self Hosted HTML5 Audio (mp3) with image cover</a>  </h2> 
+                                        <p> 
+                    Curabitur pulvinar euismod ante, ac sagittis ante posuere
+                    ac. Vivamus luctus commodo dolor porta feugiat. Fusce at
+                    velit id ligula ac sagittis ante posuere ac pharetra
+                    laoreet commodo dolor porta. </p> <a href="single-post.html" class="item-link text-decoration-none">Read More <i class="fa fa-arrow-right"></i></a> 
+                                        <!--post-item-description-->                                         
+                                    </div>                                     
+                                    <!--post-item-wrap-->                                     
+                                </div>                                 
+                                <!--post-item-->                                 
+                            </div>                             
+                            <div class="float-left w-100 post-item border mb-4"> 
+                                <div class="post-item-wrap position-relative"> 
+                                    <div class="post-video"> 
+                                        <div class="embed-container"> 
+                                            <iframe src="https://player.vimeo.com/video/157467640?background=1"></iframe>                                             
+                                        </div>                                         <span class="post-meta-category"><a href="">Video</a></span> 
+                                    </div>                                     
+                                    <div class="post-item-description"> <span class="post-meta-date"> Jan 21, 2017 </span> <span class="post-meta-comments"><a href=""> 33 Comments </a></span> 
+                                        <h2>  <a href="#">This is a example post with Vimeo video</a>  </h2> 
+                                        <p> 
+                    Curabitur pulvinar euismod ante, ac sagittis ante posuere
+                    ac. Vivamus luctus commodo dolor porta feugiat. Fusce at
+                    velit id ligula ac sagittis ante posuere ac pharetra
+                    laoreet commodo dolor porta. </p> <a href="single-post.html" class="item-link text-decoration-none">Read More <i class="fa fa-arrow-right"></i></a> 
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="float-left w-100 post-item border mb-4"> 
+                                <div class="post-item-wrap position-relative"> 
+                                    <div class="post-video"> 
+                                        <div class="fluid-width-video-wrapper"> 
+                                            <iframe width="560" height="376" src="https://www.youtube.com/embed/dA8Smj5tZOQ"></iframe>                                             
+                                        </div>                                         <span class="post-meta-category"><a href="">Video</a></span> 
+                                        <!--post-video-->                                         
+                                    </div>                                     
+                                    <div class="float-left w-100 post-item-description"> <span class="post-meta-date"> Jan 21, 2017 </span> <span class="post-meta-comments"><a href=""> 33 Comments </a></span> 
+                                        <h2><a href="#">This is a example post with YouTube</a></h2> 
+                                        <p> 
+                    Curabitur pulvinar euismod ante, ac sagittis ante posuere
+                    ac. Vivamus luctus commodo dolor porta feugiat. Fusce at
+                    velit id ligula ac sagittis ante posuere ac pharetra
+                    laoreet commodo dolor porta. </p> <a href="single-post.html" class="item-link text-decoration-none">Read More <i class="fa fa-arrow-right"></i></a> 
+                                        <!--post-item-description-->                                         
+                                    </div>                                     
+                                    <!--post-item-wrap-->                                     
+                                </div>                                 
+                                <!--post-item-->                                 
+                            </div>                             
+                            <!--blog-->                             
                         </div>                         
+                        <!--row-->                         
                     </div>                     
                 </div>                 
-                <!-- row3 -->                 
-                <div class="row"> 
-                    <div class="col-lg-6 col-md-6 col-sm-12"> 
-                        <div class="clients-outer-box  position-relative" data-aos="fade-up"> 
-                            <figure class="clients-outer-box-figure">
-                                <img src="assets/images/client-section-img5.png" alt="">
-                            </figure>                             
-                            <figure class="position-absolute icon-figure-quotes">
-                                <img src="./assets/images/quotes-icon.png" alt="">
-                            </figure>                             
-                            <div class="clients-right-content"> <span class="spencer-span">Spencer Simpson</span> <span class="ceo-p">CEO - Company</span> 
-                            </div>                             
-                            <p class="clients-sectionp2">Lorem ipsum dolor sit amet consectetuer adipiscing elitenea ncom modo ligula eget dolor aenean massa cum sociis nato que penatibus etmagnis dis parturient montes </p> 
-                            <ul class="list-unstyled"> 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                            </ul>                             
-                        </div>                         
-                    </div>                     
-                    <div class="col-lg-6 col-md-6 col-sm-12"> 
-                        <div class="clients-outer-box  position-relative" data-aos="fade-up"> 
-                            <figure class="clients-outer-box-figure">
-                                <img src="assets/images/client-section-img6.png" alt="">
-                            </figure>                             
-                            <figure class="position-absolute icon-figure-quotes">
-                                <img src="./assets/images/quotes-icon.png" alt="">
-                            </figure>                             
-                            <div class="clients-right-content"> <span class="spencer-span">Spencer Simpson</span> <span class="ceo-p">CEO - Company</span> 
-                            </div>                             
-                            <p class="clients-sectionp2">Lorem ipsum dolor sit amet consectetuer adipiscing elitenea ncom modo ligula eget dolor aenean massa cum sociis nato que penatibus etmagnis dis parturient montes </p> 
-                            <ul class="list-unstyled"> 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                </li>                                 
-                            </ul>                             
-                        </div>                         
-                    </div>                     
-                </div>                 
-                <div class="clients-section-btn"> <a href="about.html" class="text-decoration-none">View All Review</a> 
-                </div>                 
-            </div>             
+            </section>             
         </div>         
-        <!-- Form-Section -->         
-        <section class="blogs-section-starts form-section-starts form-testimonial-page overflow-hidden"> 
-            <div class="container"> 
-                <div class="row"> 
-                    <div class="col-lg-12 col-md-12 col-sm-12"> 
-                        <div class="form-section" data-aos="fade-up"> 
-                            <h3 class="text-center">Subscribe Our Newsletter</h3> 
-                            <p class="text-center form-section-p">Lorem ipsum dolor sit amet consectetuer adipiscing
-                            elitenean commodo
-                            ligula eget dolorenean massa.</p> 
-                            <div class="input-group mb-3 input-field-form"> 
-                                <input type="text" class="form-control input-form-input" placeholder="Enter your email address"> 
-                                <div class="input-group-append form-button"> 
-                                    <button class="btn btn-form-section" type="submit">Subscribe</button>                                     
-                                </div>                                 
-                            </div>                             
-                        </div>                         
-                    </div>                     
-                </div>                 
-            </div>             
-        </section>         
         <!-- Footer-Section -->         
         <div class="footer-section"> 
             <div class="about-right-icon"> 
@@ -343,7 +273,7 @@
                                 <figure> <a href="index.html"><img src="./assets/images/redlight-logo.png" alt="" class="img-fluid"/></a> 
                                 </figure>                                 
                                 <p class="red-light-footer-p">Lorem ipsum dolor sit amet, consectetur adipiscing elitsed do
-                                eiusmod tempororem ipsum dolor sit am econsect ametconsectetetur adipiscing.</p> 
+                              eiusmod tempororem ipsum dolor sit am econsect ametconsectetetur adipiscing.</p> 
                                 <div class="social-icons teams-social-icons"> 
                                     <ul class="list-unstyled"> 
                                         <li>
@@ -367,25 +297,25 @@
                             <ul class="list-unstyled services-footer" data-aos="flip-left"> 
                                 <li class="list-item footer-margin-left"> 
                                     <h5 class="footer-link  footer-services-heading"> 
-                                    Services </h5> 
+                                  Services </h5> 
                                 </li>                                 
                                 <li> <i class="fa-solid fa-caret-right"></i> <a href="index.html" class="text-decoration-none footer-link-p"> 
-                                    Threat Hunter </a> 
+                                  Threat Hunter </a> 
                                 </li>                                 
                                 <li> <i class="fa-solid fa-caret-right"></i> <a href="about.html" class="text-decoration-none footer-link-p"> 
-                                    Incident Responder </a> 
+                                  Incident Responder </a> 
                                 </li>                                 
                                 <li> <i class="fa-solid fa-caret-right"></i> <a href="services.html" class="text-decoration-none footer-link-p"> 
-                                    Secure Managed IT </a> 
+                                  Secure Managed IT </a> 
                                 </li>                                 
                                 <li> <i class="fa-solid fa-caret-right"></i> <a href="teams.html" class="text-decoration-none footer-link-p"> 
-                                    Compliance </a> 
+                                  Compliance </a> 
                                 </li>                                 
                                 <li> <i class="fa-solid fa-caret-right"></i> <a href="testimonial.html" class="text-decoration-none footer-link-p"> 
-                                    Cyber Security </a> 
+                                  Cyber Security </a> 
                                 </li>                                 
                                 <li> <i class="fa-solid fa-caret-right"></i> <a href="pricing.html" class="text-decoration-none footer-link-p"> 
-                                    Disaster Planning </a> 
+                                  Disaster Planning </a> 
                                 </li>                                 
                             </ul>                             
                         </div>                         
@@ -393,25 +323,25 @@
                             <ul class="list-unstyled support-footer" data-aos="flip-left"> 
                                 <li class="list-item footer-margin-left"> 
                                     <h5 class="footer-link footer-services-heading"> 
-                                    Support </h5> 
+                                  Support </h5> 
                                 </li>                                 
                                 <li> <i class="fa-solid fa-caret-right"></i> <a href="index.html" class="text-decoration-none footer-link-p"> 
-                                    Support </a> 
+                                  Support </a> 
                                 </li>                                 
                                 <li> <i class="fa-solid fa-caret-right"></i> <a href="contact.html" class="text-decoration-none footer-link-p"> 
-                                    Contact Us </a> 
+                                  Contact Us </a> 
                                 </li>                                 
                                 <li> <i class="fa-solid fa-caret-right"></i> <a href="services.html" class="text-decoration-none footer-link-p"> 
-                                    Knowledge Base </a> 
+                                  Knowledge Base </a> 
                                 </li>                                 
                                 <li> <i class="fa-solid fa-caret-right"></i> <a href="about.html" class="text-decoration-none footer-link-p"> 
-                                    About Us </a> 
+                                  About Us </a> 
                                 </li>                                 
                                 <li> <i class="fa-solid fa-caret-right"></i> <a href="faq.html" class="text-decoration-none footer-link-p"> 
-                                    FAQ </a> 
+                                  FAQ </a> 
                                 </li>                                 
                                 <li> <i class="fa-solid fa-caret-right"></i> <a href="testimonial.html" class="text-decoration-none footer-link-p"> 
-                                    Partnerships </a> 
+                                  Partnerships </a> 
                                 </li>                                 
                             </ul>                             
                         </div>                         
@@ -421,7 +351,7 @@
                                     <ul class="list-unstyled contact-us-ul"> 
                                         <li class="list-item"> 
                                             <h5 class="footer-link footer-get-heading"> 
-                                            Get in Touch </h5> 
+                                          Get in Touch </h5> 
                                         </li>                                         
                                         <li class="list-item position-reletive addres-list icon-list1"> 
                                             <div class="number">
@@ -441,7 +371,7 @@
                                         <li class="list-item position-reletive addres-list icon-list1"> 
                                             <div class="contact-address">
                                                 <a href="#" class="text-decoration-none footer-link-p ml-0"><span class="footer-additional">Addres: </span> King Street Melbourne,
-                                                3000, Australia</a>
+                                              3000, Australia</a>
                                             </div>                                             
                                         </li>                                         
                                     </ul>                                     
@@ -456,7 +386,7 @@
                     <div class="row"> 
                         <div class="footer-bar-content w-100"> 
                             <p class="text-size-16 mb-0"> 
-                            Copyright ©2021 Redlight.com All Rights Reserved </p> 
+                          Copyright ©2021 Redlight.com All Rights Reserved </p> 
                         </div>                         
                     </div>                     
                 </div>                 
