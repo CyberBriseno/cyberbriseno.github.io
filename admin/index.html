@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/admin/cms.html">
+    <meta charset="utf-8" />
+    <script>
+      /* forward to cms.html AND keep the #confirmation_token */
+      const target = '/admin/cms.html' + location.hash;
+      location.replace(target);
+    </script>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
