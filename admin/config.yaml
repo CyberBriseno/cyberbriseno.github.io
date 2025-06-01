@@ -9,23 +9,9 @@ collections:
   - name: "pages"
     label: "Website Pages"
     files:
-      - label: "About"
+      - label: "About Page"
         name: "about"
         file: "about.html"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-
-      - label: "Projects"
-        name: "projects"
-        file: "projects.html"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-
-      - label: "Skills"
-        name: "skills"
-        file: "skills.html"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
