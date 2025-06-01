@@ -3,9 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <script>
-      /* forward to cms.html AND keep the #confirmation_token */
-      const target = '/admin/cms.html' + location.hash;
-      location.replace(target);
+      /* keep whatever hash is present (#confirmation_token or #invite_token) */
+      location.replace('/admin/cms.html' + location.hash);
     </script>
   </head>
   <body></body>
